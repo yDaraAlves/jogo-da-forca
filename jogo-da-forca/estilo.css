@@ -1,0 +1,111 @@
+
+*{
+	font-family: "Inter" sans-serif;
+	font-weight: 400;
+	/*font-size: 23px;*/
+	line-height: 150%;
+}
+
+/* Folha de Estilo*/
+
+/*Corpo*/
+
+/*.titulo{
+	padding-bottom: 10px; 
+    padding-top: 10px;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(247, 96, 9);;
+    -webkit-text-stroke-width: 2px; /* largura da borda */
+    /*-webkit-text-stroke-color: white;*/ /* cor da borda */
+
+.input20{
+	width: 35%;
+	height: 35px;
+	border: none;
+	font-size: 19px;
+
+	border-radius: 20px;
+	margin-bottom: 25px;
+}
+
+.button {
+	 
+	padding: 11px 21px; 
+	vertical-align: middle; 
+	background:rgb(206, 10, 53);
+	color: rgb(247, 96, 9);
+	border-radius:20px; 
+	font-size: 20px;
+	margin-right: 15px; 
+	
+	font-family:helvetica, serif;
+	text-decoration:none;
+}
+
+.salvar{
+	padding: 11px 21px; 
+	vertical-align: middle; 
+	background:rgb(206, 10, 53);
+	color: rgb(247, 96, 9);
+	border-radius:20px; 
+	font-size: 20px;
+	height: 45px;
+	padding-top: 10px;
+	margin-right: 15px; 
+	text-decoration:none;
+	border: none;
+}
+
+.jogar{
+	padding: 11px 21px; 
+	vertical-align: middle; 
+	background:rgb(206, 10, 53);
+	color: rgb(247, 96, 9);
+	border-radius:20px; 
+	font-size: 20px;
+	height: 60px;
+	margin-right: 15px; 
+	font-family:helvetica, serif;
+	text-decoration:none;
+}
+
+
+
+
+
+body{
+	overflow: hidden;
+	display: table;
+	width: 100%;
+	height: 100vh;
+	background-image: url(img.jpeg);
+	background-position: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.button:hover{
+	color: white;
+}
+
+
+canvas{
+	display: fl;
+
+	
+}
+
+#id{
+	position: absolute;
+	left: 50%;
+}
+
+
+/*Media*/
+
+@media screen and (max-width: 480px)  {
+	
+	 
+}

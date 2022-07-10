@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="home.png">
+     <a href="forca.html"></a>
+     <link rel="stylesheet" type="text/css" href="estilo2.css">
+
+     <title>Home</title>
+    
+   </head>
+     <body>
+      <form action="index.html">
+         <button class="btn"> Voltar </button>
+      </form>
+      <label class="dica">Dica: Seres Misticos</label>
+      <div class="menu-canvas" style="background: rgba(248, 246, 246, 0.171);">
+
+        <canvas id="forca2" height="255px" width="630" ></canvas>
+         <div id="div-forca" class="canvas">
+      <canvas id="forca" height="230px" width="630" ></canvas>
+            
+
+      </div>
+      
+      <div class="sublilhado">
+
+      <div style="display:none;">
+            <img id="source"src="forca.png">
+            <img id="cabeca" src="cabeça.png">
+            <img id="corpo" src="corpo.png">
+            <img id="Bd" src="braçoD.png">
+            <img id="Be" src="braçoE.png">
+            <img id="Pe" src="pernaE.png">
+            <img id="Pd" src="pernaD.png">
+                 
+      </div>
+        
+      <div class="gameover" id="gameOver">
+           <div class="final"> <h2 class="titulo" id="exampleModalLabel">GAME OVER</h2><p>Não foi possivel desta vez !</p></div>
+
+           <div class="buttons"> <button class="jogar-novamente" onclick="playAgain(event)">Jogar novamente</button></div>
+      </div>
+
+      <div class="ganhou" id="janela_ganhou">
+                <div class="menu-ganhou"><h2 class="titulo" id="exampleModalLabel">VOCÊ ACENTOU!</h2><p>Parabens!</p></div>
+                <div class="modal-footer"> <button class="jogar-novamente" onclick="playAgain(event)">Jogar novamente</button></div>
+      </div>   
+
+  
+   
+     <script src="script.js"></script>
+      
+    
+    </body>
+</html>

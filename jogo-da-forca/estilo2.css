@@ -1,0 +1,272 @@
+
+body{
+    overflow: hidden;
+    display: table;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img.jpeg);
+    background-position: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#source{
+    width: 25px;
+    height: 84px;
+}
+.label-dica{
+    background-color: #e63f07;
+}
+.dica{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    background-color: #e63f07;
+    position: absolute;
+    left: 45% ;
+    top: 4px;
+   
+ 
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+#cabeca{
+    position: absolute;
+}
+
+.titulo{
+	padding-bottom: 1px; 
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(247, 96, 9);;
+    -webkit-text-stroke-width: 2px; /* largura da borda */
+    -webkit-text-stroke-color: white; /* cor da borda */
+}
+
+#forca2{
+    margin-left:5%;
+    
+
+}
+
+.menu-canvas{
+    height: 500px;
+    width: 900px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#forca{
+    margin-left: 15%;
+   
+}
+
+.gameover{
+    background-color: #e63f07;
+    position: absolute;
+    top: 150px;
+    left: 35%;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 5px #431809;
+    height: 350px;
+    width: 500px;
+    display: none;
+  
+}
+
+.ganhou{
+    background-color: #e63f07;
+    position: absolute;
+    justify-content: center;
+    top: 150px;
+    /* topo | direita | inferior | esquerda */
+    left: 35%;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 5px #431809;
+    height: 350px;
+    width: 500px;
+    display: none;
+    
+
+}
+
+
+.jogar-novamente{
+    background:rgb(206, 10, 53);
+	color: rgb(252, 249, 248);
+	border-radius:20px;
+    border: none; 
+	font-size: 16px;
+    height: 50px;
+    width: 140px;
+    margin-bottom: 20px;
+}
+
+canvas{
+    
+    
+    
+    border-radius: 20px;
+
+}
+.btn{
+     
+	padding: 11px 21px; 
+	vertical-align: middle; 
+	background:rgb(206, 10, 53);
+	color: rgb(252, 249, 248);
+	border-radius:20px;
+    border: none; 
+	font-size: 20px;
+	margin-right: 15px; 
+    margin-top: 25px;
+	font-family:helvetica, 
+	serif;text-decoration:none;
+
+}
+
+
+.btn:hover{
+	color: rgb(26, 24, 24);
+}
+
+
+
+/*Media*/
+
+@media screen and (min-width: 0) {
+    #forca2{
+        height: 160px;
+        width: 290px;
+        margin-left: 2%;
+        
+        
+    }
+
+    .menu-canvas{
+        height: 400px;
+        width: 400px;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+
+    #forca{
+        margin-left: 5%;
+        margin-top: 60px;
+        height: 120px;
+        width: 320px;
+       
+    }
+
+    .btn{
+        margin-bottom: 30px;
+    }
+
+
+    
+.ganhou{
+    top: 150px;
+    /* topo | direita | inferior | esquerda */
+    left: 20%;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 5px #431809;
+    height: 300px;
+    width: 300px;
+    display: none;
+}
+
+.gameover{
+    top: 150px;
+    left: 20%;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 5px #431809;
+    height: 300px;
+    width: 300px;
+    display: none;
+  
+}
+
+
+
+
+
+    
+}
+
+
+@media screen and (min-width: 768px) {
+    #forca2{
+        height: 255px;
+        width: 630px;
+        margin-left:8%;
+    }
+    .menu-canvas{
+        height: 510px;
+        width: 900px;
+        margin: auto;
+        border-radius: 10px;
+    }
+    #forca{
+        margin-left: 15%;
+        height:230px;
+        width:630px;
+       
+    }
+
+    .btn{
+        margin-bottom: 0;
+    }
+
+    .ganhou{
+        background-color: #e63f07;
+        position: absolute;
+        justify-content: center;
+        top: 150px;
+        /* topo | direita | inferior | esquerda */
+        left: 35%;
+        border-radius: 10px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        box-shadow: 0 0 5px #431809;
+        height: 350px;
+        width: 500px;
+        display: none;
+        
+    
+    }
+
+
+    .gameover{
+        background-color: #e63f07;
+        position: absolute;
+        top: 150px;
+        left: 35%;
+        border-radius: 10px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        box-shadow: 0 0 5px #431809;
+        height: 350px;
+        width: 500px;
+        display: none;
+      
+    }
+    
+}
